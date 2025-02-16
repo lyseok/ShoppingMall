@@ -1,0 +1,162 @@
+body {
+  background-color: #D1F8EF;
+}
+
+/* Header */
+header {
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: #578FCA;
+}
+header img {
+  width: 100px;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+
+/* Nav */
+nav {
+  height: 80px;
+  background-color: #3674B5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 40px 40px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  padding: 20px;
+  
+}
+nav ul li:hover a {
+  font-size: 40px;
+  text-shadow: 0 0 15px white;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  transition: .3s;
+}
+
+/* container */
+.container {
+  display: flex;
+}
+
+/* aside */
+aside {
+  border-radius: 30px;
+  margin: 10px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+#left {
+  color: #578FCA;
+  background-color: #3674B5;
+  padding: 20px;
+}
+#left ul{
+  display: flex;
+  flex-direction: column;
+}
+#left ul li {
+  border-bottom: 1px solid white;
+}
+#left ul li:last-child {
+  border-bottom: 0;
+}
+#left a {
+  position: relative;
+  display: block;
+  height: 70px;
+  line-height: 70px;
+  left: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  transition: .3s;
+}
+#left a:hover {
+  font-weight: 900;
+  font-size: 30px;
+  color: white;
+  text-shadow: 0 0 15px white;
+}
+#right {
+  color: white;
+  background-color: #3674B5;
+  padding: 20px;
+}
+#shopcart {
+  border-bottom: 1px solid white;
+  padding-bottom: 30px;
+}
+#shopcart h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+#shopcart p {
+  margin-bottom: 20px;
+}
+#shopcart a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+#login {
+  margin-top: 30px;
+}
+#login h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+#login p {
+  font-size: 20px;
+  margin: 10px 0 2px 0;
+}
+#login .btn {
+  margin: 15px 5px;
+}
+#login a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+/* section */
+section {
+  border: 2px solid green;
+  border-radius: 30px;
+  margin: 10px;
+  flex-grow: 3;
+  flex-basis: 0;
+  background-color: white;
+}
+
+/* footer */
+footer {
+  background-color: #578FCA;
+  border-radius: 40px 40px 0 0;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  min-height: 50vh;
+}
+footer p {
+  color: white;
+}
