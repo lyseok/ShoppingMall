@@ -1,5 +1,5 @@
 body {
-  background-color: #D1F8EF;
+  background-color: #F2EFE7;
 }
 
 /* Header */
@@ -17,7 +17,7 @@ header img {
 header a {
   color: white;
   text-decoration: none;
-  font-size: 50px;
+  font-size: 3rem;
   font-weight: 800;
 }
 
@@ -41,13 +41,14 @@ nav ul li {
   
 }
 nav ul li:hover a {
-  font-size: 40px;
+  font-size: 2.6rem;
   text-shadow: 0 0 15px white;
+  font-weight: 800;
 }
 nav ul li a {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 1.8rem;
   transition: .3s;
 }
 
@@ -83,15 +84,15 @@ aside {
   display: block;
   height: 70px;
   line-height: 70px;
-  left: 20px;
+  left: 10px;
   color: white;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 1.2rem;
   transition: .3s;
 }
 #left a:hover {
   font-weight: 900;
-  font-size: 30px;
+  font-size: 1.5rem;
   color: white;
   text-shadow: 0 0 15px white;
 }
@@ -99,13 +100,17 @@ aside {
   color: white;
   background-color: #3674B5;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 #shopcart {
   border-bottom: 1px solid white;
   padding-bottom: 30px;
 }
 #shopcart h2 {
-  font-size: 30px;
+  font-size: 2rem;
   margin-bottom: 20px;
   font-weight: 800;
 }
@@ -118,24 +123,48 @@ aside {
   font-size: 20px;
 }
 #login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 30px;
+}
+#login form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #login h2 {
   font-size: 30px;
   margin-bottom: 20px;
   font-weight: 800;
 }
-#login p {
-  font-size: 20px;
-  margin: 10px 0 2px 0;
+#login .input {
+  display: block;
+  width: 180px;
+  border: 2px solid #9ACBD0;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
 }
 #login .btn {
-  margin: 15px 5px;
+  margin: 5px 5px;
+  border-radius: 10px;
+  background-color: #9ACBD0;
+  border: 2px solid #9ACBD0;
+  color: #2973B2;
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+  width: 90px;
+  height: 30px;
+  font-size: 0.9rem;
+  line-height: 26px;
 }
 #login a {
   text-decoration: none;
-  font-size: 20px;
-  color: white;
+}
+#login .boxalign {
+  display: flex;
 }
 
 /* section */
@@ -153,9 +182,12 @@ footer {
   background-color: #578FCA;
   border-radius: 40px 40px 0 0;
   padding: 50px;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
-  min-height: 50vh;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
 }
 footer p {
   color: white;

@@ -4,7 +4,7 @@ body{
 form {
   display: flex;
   justify-content: center;
-  margin: 20vh;
+  margin: 10vh;
 }
 form fieldset {
   display: flex;
@@ -23,6 +23,17 @@ form table th {
 }
 form .btn {
   padding: 5px 20px;
+  width: 100px;
+  margin: 5px 5px;
+  border-radius: 10px;
+  background-color: #9ACBD0;
+  border: 2px solid #9ACBD0;
+  color: #2973B2;
+  box-sizing: border-box;
+  text-align: center;
+  height: 30px;
+  font-size: 0.9rem;
+  line-height: 20px;
 }
 form a {
   position: absolute;
@@ -31,4 +42,12 @@ form a {
   color: gray;
   text-decoration: none;
   font-size: 20px;
+}
+
+form input {
+  width: 180px;
+  border: 2px solid #9ACBD0;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
 }
